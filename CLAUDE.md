@@ -1,23 +1,23 @@
 # opspilot-scoop — Scoop bucket (Windows)
 
 > **DO NOT hand-edit the manifest.** It is auto-pushed by GoReleaser
-> on every CLI release tag from `msrashed2018/opspilot-cli`.
+> on every CLI release tag from `veirox-cloud/veirox-cli`.
 
 ## Repo purpose
 
-Scoop bucket for the [OpsPilot CLI](https://opspilot.msrashed.com/cli.html)
+Scoop bucket for the [Veirox CLI](https://veirox.com/cli.html)
 on Windows.
 
 ## Why this repo is public
 
 Scoop buckets are conventionally public — `scoop bucket add` clones
 the repo unauthenticated. The CLI source itself stays private at
-`msrashed2018/opspilot-cli`.
+`veirox-cloud/veirox-cli`.
 
 ## Install (end-user)
 
 ```powershell
-scoop bucket add opspilot https://github.com/msrashed2018/opspilot-scoop
+scoop bucket add veirox https://github.com/veirox-cloud/veirox-scoop
 scoop install opspilot
 ```
 
@@ -25,7 +25,7 @@ scoop install opspilot
 
 Same pipeline as `homebrew-opspilot`: GoReleaser pushes the manifest
 to this repo via the `SCOOP_BUCKET_TOKEN` PAT on every CLI tag. See
-[`opspilot-cli/.goreleaser.yaml`](https://github.com/msrashed2018/opspilot-cli/blob/main/.goreleaser.yaml)
+[`opspilot-cli/.goreleaser.yaml`](https://github.com/veirox-cloud/veirox-cli/blob/main/.goreleaser.yaml)
 `scoops:` block.
 
 ## What lives here

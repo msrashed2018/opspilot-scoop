@@ -1,11 +1,11 @@
 # opspilot-scoop
 
-Scoop bucket for the [OpsPilot CLI](https://opspilot.msrashed.com/cli.html).
+Scoop bucket for the [Veirox CLI](https://veirox.com/cli.html).
 
 ## Install
 
 ```powershell
-scoop bucket add opspilot https://github.com/msrashed2018/opspilot-scoop
+scoop bucket add veirox https://github.com/veirox-cloud/veirox-scoop
 scoop install opspilot
 ```
 
@@ -13,7 +13,7 @@ scoop install opspilot
 
 This repo contains a single Scoop manifest for `opspilot`. The manifest
 is **auto-updated by GoReleaser** on every CLI release tag — see
-[`opspilot-cli`](https://github.com/msrashed2018/opspilot-cli) for the
+[`opspilot-cli`](https://github.com/veirox-cloud/veirox-cli) for the
 binary source.
 
 ## Why this repo is public
